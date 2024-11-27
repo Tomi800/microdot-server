@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #000080;
+}
+
+header {
+    background-color: #176fc7;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white;
+}
+
+main {
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    background-color: #176fc7;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+#temperature-display {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#temperature-value {
+    font-weight: bold;
+}
+
+#setpoint-slider {
+    width: 100%;
+    margin: 10px 0;
+}
+
+#setpoint-value {
+    font-size: 18px;
+}
+
+#container {
+    text-align: center;
+    background-color: #1d1c1c;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    color:#c18de1
+}
